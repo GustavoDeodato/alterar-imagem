@@ -1,0 +1,19 @@
+:root{
+    --imagem-winx:
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem-winx);
+    transition: 1s;
+}
