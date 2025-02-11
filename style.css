@@ -1,19 +1,25 @@
 :root{
-    --imagem-winx:
+    --imagem-fundo: url('./japa.jpg');
 }
 
-*{
+* {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
 }
-
 
 body{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: var(--imagem-winx);
-    transition: 1s;
+    height: 100vh;
+    transition: 5s;
+    background-image: var(--imagem-fundo);
+
+}
+
+#trocar-imagem{
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
 }
